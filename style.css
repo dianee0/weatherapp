@@ -1,0 +1,26 @@
+html{
+    height: 100%;
+}
+
+body{
+    min-height: 100%;
+    background: #E4F1FF;
+    background: -moz-linear-gradient(45deg, #E4F1FF 0%, #85B5F4 50%, #2F72B9 100%);
+    background: -webkit-linear-gradient(45deg, #E4F1FF 0%, #85B5F4 50%, #2F72B9 100%);
+    background: linear-gradient(45deg, #E4F1FF 0%, #85B5F4 50%, #2F72B9 100%);
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fiveday{
+    display: flex;
+    align-items: center;
+}
+
+.forecast{
+    padding: 0.3em;
+}
